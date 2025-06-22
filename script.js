@@ -13,9 +13,13 @@ const getTime = () => {
 
 const clock = () => {
     const date = new Date();
+    const hours = date.getHours().toString().length == 2
+    ? `${date.getHours()}` : `0${date.getHours}`;
+    const minutes = date.getMinutes().toString().length == 2
+    ? `${date.getMinutes()}` : `0${date.getMinutes()}`;
     const second = date.getSeconds().toString().length == 2
     ? `${date.getSeconds()}` : `0${date.getSeconds()}`;
-    const result = `${date.getHours()}:${date.getMinutes()}:${second}`;
+    const result = `${hours}:${minutes}:${second}`;
     return result;
 }
 
