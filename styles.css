@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333446;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#tanggal {
+    text-align: center;
+    color: #333446;
+}
+
+body {
+    background-color: #eaefef;
+}
+
+.container {
+    margin-top: 20vh;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20vh auto 0;
+    box-shadow: 0 0 4px 1px rgba(0 ,255,255, 0.2);
+}
+
+.container p {
+    color: #333446;
+}
+
+#jadwal-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+#clock {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#clock-container {
+    width: 200px;
+    height: 45px;
+    background-color: #334466;
+    margin: 10px auto;
+    padding: 10px;
+}
