@@ -14,7 +14,7 @@ const getTime = () => {
 const clock = () => {
     const date = new Date();
     const hours = date.getHours().toString().length == 2
-    ? `${date.getHours()}` : `0${date.getHours}`;
+    ? `${date.getHours()}` : `0${date.getHours()}`;
     const minutes = date.getMinutes().toString().length == 2
     ? `${date.getMinutes()}` : `0${date.getMinutes()}`;
     const second = date.getSeconds().toString().length == 2
